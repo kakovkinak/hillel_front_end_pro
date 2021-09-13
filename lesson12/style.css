@@ -1,0 +1,45 @@
+  
+body {
+    background-color: rgb(255, 160, 122);
+}
+.inputContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto 0;
+    padding: 20px 0;
+    background-color: rgb(255, 69, 0);
+    border-radius: 10px;
+}
+.input {
+    width: 950px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+::placeholder {
+    color: rgb(148, 148, 144);
+}
+.btn {
+    width: 150px;
+    background-color: rgb(255, 218, 185);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.todos {
+    background-color: rgb(178, 34, 34);
+    border-radius: 10px;
+}
+.todos h1 {
+    text-align: center;
+}
+.todoItemList li {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    padding: 10px;
+}
+[type="checkbox"] {
+    float: right;
+}
+.crossout {
+    text-decoration: line-through;
+}
